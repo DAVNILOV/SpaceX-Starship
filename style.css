@@ -18,3 +18,14 @@ tr {
     margin: 
     border:
     height: 
+}
+
+/* creating the box shadow effect for the heading, source:
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+h1 {
+    text-align: center;
+    box-shadow: 10px 5px 5px black;  
+    background: darkred;
+    
+}
+
