@@ -11,13 +11,7 @@ th {
 }
 
 body {
-    background-color: lightblue;
-}
-
-tr {
-    margin: 
-    border:
-    height: 
+    background-color: gray;
 }
 
 /* creating the box shadow effect for the heading, source:
@@ -25,7 +19,28 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
 h1 {
     text-align: center;
     box-shadow: 10px 5px 5px black;  
-    background: darkred;
-    
+    background: gray;
+
 }
 
+div2 {
+    width: 200px;
+    margin-right: 570px;
+    background-color: beige;
+}
+
+#correct-letters {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#play-button {
+    background-color: blue;
+    color: wheat;
+}
+
+#instructions {
+    background-color: red;
+    color: wheat;
+}
