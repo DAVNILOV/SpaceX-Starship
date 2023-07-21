@@ -44,3 +44,12 @@ div2 {
     background-color: red;
     color: wheat;
 }
+
+.alphabet {
+    text-align: center;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
