@@ -9,19 +9,25 @@
 </head>
 <body>
     <h1>SPACE-X STARSHIP</h1>
+    <div id="container">
+
+
+    <div>
+
     <div>
         <!-- /* creating a table, source: https://www.educba.com/create-tables-in-html/  -->
 
         <table border="10" cellpadding="10" id="used-letters">
-    
-            <th>ORBIT<br>USED LETTERS
-
-        </th> 
+<tr id="incorrect-letter">
+    <th>ORBIT INCORRECT LETTERS</th> 
+</tr>
+<tr id="correct-letter">
+    <th>ORBIT CORRECT LETTERS</th> 
+</tr>
         </table>
     </div>
 
-    <button id="play-button">PLAY</button>
-    <button id="instructions">INSTRUCTIONS</button>
+    <div id="word"></div>
 
 
 <!-- touchable keybaord source: https://stackoverflow.com/questions/30616925/creating-26-alphabet-letter-buttons-with-the-for-loop-and-string-fromcharcode -->
@@ -54,11 +60,17 @@
 <button onclick="setLetter('Y');">Y</button>
 <button onclick="setLetter('Z');">Z</button>
 </div>
-
+<button onclick="reset()">RESET</button>
+</div>
 
 <!-- SpaceX Starship photo source: https://www.thomasnet.com/insights/5-facts-about-the-spacex-starship-that-set-it-apart-from-other-rockets/ -->
 
+<div id="starship">
 
+
+    
+</div>
+</div>
 
 </body>
 </html>

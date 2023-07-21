@@ -53,3 +53,27 @@ div2 {
     height: 35px;
 }
 
+.correct-letter {
+    color: green;
+}
+
+.incorrect-letter {
+    color: red;
+}
+
+#starship {
+    display: flex;
+    flex-direction: column;
+}
+
+#starship img {
+    width: 100px;
+}
+
+#container {
+    display:flex;
+}
+
+#word {
+    font-size: 100px;
+}
