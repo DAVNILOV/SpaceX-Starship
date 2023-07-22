@@ -11,16 +11,11 @@ WIREFRAME
 
 
 
-TECHNOLOGIES
+TECHNOLOGIES: HTML, CSS, & JavaScript
 
-HTML, CSS, & JavaScript
-
-
-
-GAME LINK
-
-
+GAME LINK: https://davnilov.github.io/SpaceX-Starship/
 
 FUTURE ENHANCEMENTS
 - Play button
 - Scoreboard
+- Instructions
