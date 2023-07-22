@@ -51,7 +51,7 @@ function setLetter(letter) {
           }
 
           if (numLetters == word.length) {
-            alert("You guessed the word correctly")
+            document.getElementById("message").innerText = "You guessed the word correctly. You Won!"
             gameover = true;
           }
     } else {
@@ -63,7 +63,7 @@ function setLetter(letter) {
             count ++;
            starship.appendChild(img)
            if (count == 7) {
-            alert("Game Over")
+            document.getElementById("message").innerText = "You are out of tries, Game Over!"
             gameover = true;
            }
          } 
@@ -87,6 +87,7 @@ function reset () {
  numLetters = 0
  guessedLetters = []
  gameover = false
+ document.getElementById("message").innerText = ""
 
 
 word = getWord(wordList.aviation);
@@ -122,3 +123,4 @@ while (rowEl.firstChild) {
     rowEl.removeChild(rowEl.firstChild)
 }
 }
+
