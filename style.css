@@ -77,3 +77,8 @@ div2 {
 #word {
     font-size: 100px;
 }
+
+#message {
+    color: blue;
+    font-size: 32px;
+}
